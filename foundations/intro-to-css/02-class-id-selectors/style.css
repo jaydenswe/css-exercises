@@ -12,3 +12,9 @@
 #third-element {
   font-size: 24px;
 }
+
+#fourth-element {
+  background-color: rgb(13, 255, 0);
+  font-size: 24px;
+  font-weight: bold;
+}
