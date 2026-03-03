@@ -10,7 +10,6 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
 }
 
 /* do not edit this footer */
@@ -26,11 +25,6 @@ img {
   background: #eee;
 }
 
-.text {
-  display: flex;
-  text-align: center;
-}
-
 #food {
   display: flex;
   gap: 52px;
@@ -41,16 +35,18 @@ img {
   display: flex;
   flex-direction: column;
   flex: 1;
-  width: 200px;
+  max-width: 200px;
   align-items: center;
-}
-
-#food .item.text {
-  text-align: center;
+  flex-wrap: wrap;
 }
 
 #container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 32px;
+}
+
+.text {
+  text-align: center;
 }
