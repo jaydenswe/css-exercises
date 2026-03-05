@@ -62,6 +62,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  flex: 1;
 }
 
 #header .left-links, .right-links {
